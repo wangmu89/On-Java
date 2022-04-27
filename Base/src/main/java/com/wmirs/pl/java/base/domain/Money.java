@@ -8,7 +8,7 @@ import java.util.Currency;
 import java.util.Objects;
 
 /**
- * @Desc
+ * @Desc 金钱
  * @Author WangMu
  * @Create 2022-04-18
  */
@@ -18,7 +18,7 @@ public final class Money implements Comparable<Money> {
      */
     private final BigInteger amount;
     /**
-     * 货币
+     * 货币种类，如: CNY, USD, JPY
      */
     private final Currency currency;
 
@@ -97,7 +97,7 @@ public final class Money implements Comparable<Money> {
     /**
      * Japanese Yen, JPY
      *
-     * @param amount
+     * @param amount ?日元
      * @return
      */
     public static Money jpy(double amount) {
@@ -108,7 +108,7 @@ public final class Money implements Comparable<Money> {
     /**
      * Japanese Yen, JPY
      *
-     * @param amount
+     * @param amount ?日元
      * @return
      */
     public static Money jpy(BigDecimal amount) {
