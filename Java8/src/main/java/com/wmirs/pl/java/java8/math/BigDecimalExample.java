@@ -1,4 +1,4 @@
-package ren.wangmu.pl.java.java8.math;
+package com.wmirs.pl.java.java8.math;
 
 import java.math.BigDecimal;
 import java.math.BigInteger;

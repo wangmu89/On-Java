@@ -1,4 +1,4 @@
-package ren.wangmu.pl.java.utils;
+package com.wmirs.pl.java.base.utils;
 
 /**
  * @Desc

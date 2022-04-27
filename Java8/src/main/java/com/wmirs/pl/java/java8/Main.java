@@ -1,7 +1,7 @@
-package ren.wangmu.pl.java.java8;
+package com.wmirs.pl.java.java8;
 
 import java.util.Arrays;
-import ren.wangmu.pl.java.utils.Range;
+import com.wmirs.pl.java.base.utils.Range;
 
 /**
  * @Desc
